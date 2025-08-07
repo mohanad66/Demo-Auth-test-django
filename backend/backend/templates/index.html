@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load django_vite %}
+    {% vite_hmr_client %}
+    {% vite_asset 'src/main.jsx' %}  <!-- Entry point of your Vite app -->
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
